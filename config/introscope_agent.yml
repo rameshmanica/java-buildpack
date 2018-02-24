@@ -16,7 +16,7 @@
 # Configuration for the CA Wily framework
 ---
 #repository_root: "http://manra09-gx7010/pcffiles/"
-repository_root: "https://drive.google.com/open?id=1e_G7ioosA1XmltHUmNRhvXGvF6tqINAN"
+repository_root: "https://bintray.com/ca/apm-agents/cfdev/IntroscopeAgentFiles-NoInstaller10.1.0_70tomcat.unix.tar"
 #repository_root: https://ca.bintray.com/apm-agents
 version: 10.+
 default_agent_name: $(ruby -e "require 'json' ; puts JSON.parse(ENV['VCAP_APPLICATION'])['application_name']")
